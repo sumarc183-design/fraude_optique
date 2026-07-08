@@ -6,6 +6,7 @@ Ce dépôt présente une synthèse anonymisée de travaux réalisés autour de l
 
 - [Résumé public Data Science / MLOps](#objectif-du-projet) : synthèse anonymisée d'un projet de modélisation, industrialisation et monitoring.
 - [Mean-Variance Portfolio Optimization](mean_variance_portfolio_optimization/) : projet académique personnel en finance quantitative, avec implémentation Python de méthodes numériques d'optimisation.
+- [Conjugate Gradient Method](conjugate_gradient_method/) : projet académique LaTeX/Overleaf sur la méthode du gradient conjugué, sa convergence finie, son interprétation optimisation et un exemple numérique Python.
 
 ## Objectif du projet
 
