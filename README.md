@@ -145,3 +145,7 @@ Pour des raisons de confidentialité, ce dépôt ne contient pas :
 ## Résultat
 
 Le projet a abouti à une chaîne complète allant de la préparation des données au suivi post-déploiement. La valeur principale réside dans la reproductibilité du pipeline, la maîtrise des risques de fuite d'information, la traçabilité des expériences et la capacité à surveiller les variables réellement utilisées par le modèle en production.
+
+## Voir aussi
+
+Mes projets académiques et personnels (mathématiques appliquées, optimisation numérique, probabilités) sont regroupés dans un dépôt séparé : [portfolio-projects](https://github.com/sumarc183-design/portfolio-projects).
