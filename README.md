@@ -2,6 +2,11 @@
 
 Ce dépôt présente une synthèse anonymisée de travaux réalisés autour de la détection de dossiers atypiques dans un contexte métier sensible. Il ne contient volontairement aucune donnée, aucun modèle entraîné, aucun extrait de jeu de données, aucun identifiant interne et aucun résultat confidentiel.
 
+## Projets inclus
+
+- [Résumé public Data Science / MLOps](#objectif-du-projet) : synthèse anonymisée d'un projet de modélisation, industrialisation et monitoring.
+- [Mean-Variance Portfolio Optimization](mean_variance_portfolio_optimization/) : projet académique personnel en finance quantitative, avec implémentation Python de méthodes numériques d'optimisation.
+
 ## Objectif du projet
 
 L'objectif était de construire une chaîne reproductible permettant de préparer des données métier brutes, d'entraîner des modèles supervisés, d'évaluer leur stabilité dans le temps, puis de faciliter leur déploiement et leur suivi opérationnel.
