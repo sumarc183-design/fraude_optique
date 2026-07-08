@@ -96,6 +96,21 @@ Le monitoring vérifie notamment :
 - les taux hebdomadaires d'anomalie ;
 - les écarts par rapport à l'historique.
 
+## Résultats anonymisés
+
+Les artefacts MLflow analysés confirment que deux pipelines XGBoost ont été exportés au format `python_function`, avec une signature d'entrée explicite et deux probabilités de sortie. Les fichiers sources de ces artefacts ne sont pas publiés.
+
+Les ordres de grandeur validés sont les suivants :
+
+- premier périmètre : environ 17 000 lignes d'entraînement et 4 000 lignes de test ;
+- second périmètre : environ 49 000 lignes d'entraînement et 12 000 lignes de test ;
+- deux modèles sérialisés sous MLflow avec environnement Python reproductible ;
+- entrées rendues optionnelles dans la signature afin de supporter un scoring robuste avec imputation et alignement de colonnes ;
+- sorties standardisées sous forme de probabilités de classe ;
+- validation orientée production : rechargement du modèle, scoring sur données brutes préparées par le pipeline et contrôle de cohérence avec l'exposition API.
+
+Ces résultats montrent que le projet ne s'est pas limité à une expérimentation notebook : il a produit des artefacts industrialisables, versionnés et contrôlables. Les métriques exactes, noms de variables, identifiants de runs et chemins internes restent exclus de cette version publique.
+
 ## Compétences mobilisées
 
 - Python

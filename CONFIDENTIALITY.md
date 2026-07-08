@@ -6,6 +6,7 @@ Il doit rester limité à une description anonymisée des travaux. Ne pas y ajou
 
 - jeux de données ;
 - modèles `.pkl`, `.joblib`, MLflow ou autres artefacts entraînés ;
+- archives d'artefacts MLflow `.zip` ;
 - rapports internes complets ;
 - métriques détaillées issues de données réelles ;
 - noms d'entreprise, de client, de projet, de dataset ou d'endpoint ;
